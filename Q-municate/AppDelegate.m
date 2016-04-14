@@ -17,10 +17,10 @@
 #import "QMViewControllersFactory.h"
 
 // Production
-const NSUInteger kQMApplicationID = 13318;
-NSString *const kQMAuthorizationKey = @"WzrAY7vrGmbgFfP";
-NSString *const kQMAuthorizationSecret = @"xS2uerEveGHmEun";
-NSString *const kQMAccountKey = @"6Qyiz3pZfNsex1Enqnp7";
+const NSUInteger kQMApplicationID = 39101;
+NSString *const kQMAuthorizationKey = @"G2Pkf6Wt5yPrBKj";
+NSString *const kQMAuthorizationSecret = @"RGvyjRBm2EYWJbf";
+NSString *const kQMAccountKey = @"p5yc9gsgyw99i5ExXxZ3";
 
 @interface AppDelegate () <QMNotificationHandlerDelegate>
 
