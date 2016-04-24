@@ -198,7 +198,7 @@
 
 - (NSUInteger )occupantIDForPrivateChatDialog:(QBChatDialog *)chatDialog {
     
-    NSAssert(chatDialog.type == QBChatDialogTypePrivate, @"Chat dialog type != QBChatDialogTypePrivate");
+//    NSAssert(chatDialog.type == QBChatDialogTypePrivate, @"Chat dialog type != QBChatDialogTypePrivate");
     
     NSInteger myID = self.currentUser.ID;
     

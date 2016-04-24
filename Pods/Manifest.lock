@@ -25,7 +25,10 @@ PODS:
   - Bolts/AppLinks (1.5.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.5.0)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
   - DACircularProgress (2.3.1)
+  - Fabric (1.6.7)
   - FBSDKCoreKit (4.7.1):
     - Bolts (~> 1.1)
     - FBSDKCoreKit/arc (= 4.7.1)
@@ -90,6 +93,8 @@ PODS:
 
 DEPENDENCIES:
   - AGEmojiKeyboard (~> 0.1.0)
+  - Crashlytics
+  - Fabric
   - FBSDKCoreKit (~> 4.7.0)
   - FBSDKLoginKit (~> 4.7.0)
   - FBSDKShareKit (~> 4.7.0)
@@ -128,7 +133,9 @@ SPEC CHECKSUMS:
   AFNetworking: caca0799b310f0c3bf1fc1af45145fc96972bcab
   AGEmojiKeyboard: e19cf4168b114d2e494e53fe8dc042d8bf011cc9
   Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
   FBSDKCoreKit: 9141b70960a37930850370495fe565f4a27ac141
   FBSDKLoginKit: c11ed3c2833472db3bb4a4aecf27af4a6f69b173
   FBSDKShareKit: 213adf63e073f41a346b0e7a689805880dc5150e
@@ -145,4 +152,4 @@ SPEC CHECKSUMS:
   TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
   UIDevice-Hardware: de848ac4b53de555f70ff1a32877454d221c71d1
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

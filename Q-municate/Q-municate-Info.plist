@@ -38,7 +38,7 @@
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
-		<string>7aea78439bec41a9005c7488bb6751c5e33fe270</string>
+		<string>7f17ac1f6702e9bfa36a1ea98f73a04a2717a7b3</string>
 		<key>Kits</key>
 		<array>
 			<dict>
@@ -90,7 +90,9 @@
 	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
-		<string>audio</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
 	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
@@ -103,6 +105,9 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>

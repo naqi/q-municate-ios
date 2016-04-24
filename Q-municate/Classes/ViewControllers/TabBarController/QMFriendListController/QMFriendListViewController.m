@@ -30,7 +30,7 @@
     ILog(@"%@ - %@",  NSStringFromSelector(_cmd), self);
 }
 
-#define kQMSHOW_SEARCH 0
+#define kQMSHOW_SEARCH 1
 
 - (void)viewDidLoad {
     [super viewDidLoad];

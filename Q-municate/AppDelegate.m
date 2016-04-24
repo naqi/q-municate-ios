@@ -15,12 +15,15 @@
 #import "QMAVCallManager.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import "QMViewControllersFactory.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
 
 // Production
-const NSUInteger kQMApplicationID = 39101;
-NSString *const kQMAuthorizationKey = @"G2Pkf6Wt5yPrBKj";
-NSString *const kQMAuthorizationSecret = @"RGvyjRBm2EYWJbf";
-NSString *const kQMAccountKey = @"p5yc9gsgyw99i5ExXxZ3";
+const NSUInteger kQMApplicationID = 39159;
+NSString *const kQMAuthorizationKey = @"a6EDJ384VBKGOw7";
+NSString *const kQMAuthorizationSecret = @"KLpFABZPHVKO8ys";
+NSString *const kQMAccountKey = @"dp2yxeyggzyCuoSSJF48";
 
 @interface AppDelegate () <QMNotificationHandlerDelegate>
 
@@ -29,6 +32,8 @@ NSString *const kQMAccountKey = @"p5yc9gsgyw99i5ExXxZ3";
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [Fabric with:@[[Crashlytics class]]];
+    
     UIApplication.sharedApplication.applicationIconBadgeNumber = 0;
     
     UIApplication.sharedApplication.statusBarStyle = UIStatusBarStyleDefault;
