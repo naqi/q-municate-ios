@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Q-municate.xcodeproj">
+      location = "group:/Users/Pingboard/Projects/q-municate-ios/ChatterBox.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

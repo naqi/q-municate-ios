@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69D57E5118ACC11C00A9900A"
                BuildableName = "Q-municate.app"
-               BlueprintName = "Q-municate"
-               ReferencedContainer = "container:Q-municate.xcodeproj">
+               BlueprintName = "ChatterBox"
+               ReferencedContainer = "container:ChatterBox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69D57E5118ACC11C00A9900A"
             BuildableName = "Q-municate.app"
-            BlueprintName = "Q-municate"
-            ReferencedContainer = "container:Q-municate.xcodeproj">
+            BlueprintName = "ChatterBox"
+            ReferencedContainer = "container:ChatterBox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,8 +57,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69D57E5118ACC11C00A9900A"
             BuildableName = "Q-municate.app"
-            BlueprintName = "Q-municate"
-            ReferencedContainer = "container:Q-municate.xcodeproj">
+            BlueprintName = "ChatterBox"
+            ReferencedContainer = "container:ChatterBox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,8 +76,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69D57E5118ACC11C00A9900A"
             BuildableName = "Q-municate.app"
-            BlueprintName = "Q-municate"
-            ReferencedContainer = "container:Q-municate.xcodeproj">
+            BlueprintName = "ChatterBox"
+            ReferencedContainer = "container:ChatterBox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
